@@ -40,6 +40,7 @@ bool relay_status = false;
 bool shouldSaveConfig = false;
 
 Button MyButton(BUTTON_PIN);
+
 struct RemoteDebug Debug;
 struct fauxmoESP fauxmo;
 struct WiFiManager wifiManager;
